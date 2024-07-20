@@ -1,5 +1,4 @@
 import './ProductList.css'
-import Navbar from '../components/Navbar/Navbar'
 import Products from '../components/products/products'
 import Newletter from '../components/newletter/Newletter'
 import Footer from '../components/footer/Footer'
@@ -7,7 +6,7 @@ import Footer from '../components/footer/Footer'
 const ProductList = () => {
   return (
     <div className='ProductList'>
-      <Navbar/>
+      
       <h1 className="fTitle">Products</h1>
       <div className="filterContainer">
         

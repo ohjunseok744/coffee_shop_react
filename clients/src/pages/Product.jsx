@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Product.css'
-import Navbar from '../components/Navbar/Navbar'
 import Newletter from '../components/newletter/Newletter';
 import Footer from '../components/footer/Footer';
 const Product = () => {
@@ -14,7 +13,7 @@ const Product = () => {
   };
   return (
     <div className="productContainer">
-      <Navbar></Navbar>
+      
       <div className="productWrapper">
         <div className="productImgContainer">
           <img src="../images/ontap.jpg" alt="" className="productImg" />

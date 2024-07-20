@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar/Navbar";
+
 import Slider from "../components/slider/Slider"
 import Category from "../components/catagory/Category"
 import Products from "../components/products/products"
@@ -7,7 +7,7 @@ import Footer from "../components/footer/Footer";
 const Home = ({data}) => {
   return(
     <>
-      <Navbar />
+      
       <Slider data={data}/>
       <Category/>
       <Products/>

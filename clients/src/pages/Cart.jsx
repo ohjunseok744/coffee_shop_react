@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/footer/Footer';
 import './Cart.css';
 
@@ -69,7 +68,7 @@ const Cart = () => {
 
   return (
     <div className="Cart">
-      <Navbar />
+      
       <div className="cartWrapper">
         <div className="cartTop">
           <h1 className="cartTitle">장바구니</h1>

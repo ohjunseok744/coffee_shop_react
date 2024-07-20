@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../hooks/apiCall.js'; // login 액션을 호출하는 함수
 import './Login.css';
-import Navbar from '../components/Navbar/Navbar';
+
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -22,7 +22,7 @@ const Login = () => {
 
   return (
     <div className="login">
-      <Navbar />
+      
       <div className="loginWrapper">
         <h1 className="loginTitle">Log In</h1>
         <form className="loginForm" onSubmit={handleLogin}>
